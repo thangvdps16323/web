@@ -1,0 +1,280 @@
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Start Content */
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.content-banner {
+    width: 760px;
+    padding: 0 15px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.banner-heading {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    color: #022d62;
+}
+
+.banner-desc {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.content-form {
+    padding: 70px 0;
+}
+
+/* Start Form */
+.content-row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content-left {
+    float: left;
+}
+
+.content-right {
+    float: right;
+}
+.content-col-3 {
+    width: 33.33333%;
+}
+
+.content-col-7 {
+    width: 58.33333%;
+}
+
+.form-detail {
+    padding: 0 15px;
+}
+
+.detail-heading {
+    font-size: 24px;
+    color: #022d62;
+    margin-bottom: 16px;
+}
+
+.detail-desc {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #686868;
+}
+
+.form-container {
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.15);
+}
+
+.form-container > div {
+    padding: 48px;
+}
+
+.form-heading {
+    color: #022d62;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    height: 48px;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: #fff;
+    border-color: #ef3139;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control__checkbox {
+    outline: none;
+}
+
+.form-group__message {
+    height: auto;
+}
+
+.control-label {
+    font-size: 14px;
+    margin-left: 8px;
+    color: #676c71;
+}
+
+.form-control__checkbox:hover,
+.control-label:hover {
+    cursor: pointer;
+}
+
+.btn-form {
+    display: inline-block;
+    padding: 16px 34px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: 0;
+    color: #fff;
+    background-color: #ef3139;
+}
+
+.btn-form:hover {
+    background-color: #022d62;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+/* End Form */
+/* Start Location */
+.location-detail {
+    padding: 0 15px;
+}
+
+.location-heading {
+    color: #022d62;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.location-link {
+    padding: 16px 34px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #022d62;
+    text-decoration: none;
+    background-color: #f8f8f8;
+}
+
+.location-link:hover {
+    background-color: #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.address-row {
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.address-row:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.address-col {
+    float: left;
+}
+
+.address-col-2 {
+    width: 50%;
+}
+
+.address-item {
+    margin: 0 15px;
+}
+
+.address-img {
+    max-width: 100%;
+}
+
+.address-title {
+    font-size: 24px;
+    color: #022d62;
+    margin-bottom: 16px;
+}
+
+.address-desc {
+    font-size: 16px;
+    color: #626262;
+}
+
+.address-hr {
+    border: none;
+    margin: 15px 0;
+}
+/* End Location */
+/* End Content */
+
+/* Start Relate Post */
+.relate-post {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.rp-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.rp-row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.rp-col {
+    float: left;
+}
+
+.rp-col-3 {
+    width: 33.33333%;
+}
+
+.rp-item {
+    padding: 45px;
+    background-color: #f6f6f6;
+    margin: 0 15px;
+}
+
+.rp-title {
+    font-size: 24px;
+    color: #022d62;
+    margin-bottom: 18px;
+}
+
+.rp-title:hover {
+    transition: all 0.3s ease-in-out;
+    color: #ef3139;
+    cursor: pointer;
+}
+
+.rp-desc {
+    line-height: 1.8;
+    font-size: 14px;
+    color: #676c71;
+}
+
+/* End Relate Post */
