@@ -208,6 +208,23 @@ html {
 .slider-sponsor__img {
     margin-right: 20px;
 }
+
+#lab4 {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 10;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #022d62;
+}
+
+#lab4:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+
 /* End Slider */
 
 /* Container */
